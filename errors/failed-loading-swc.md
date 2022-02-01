@@ -10,6 +10,10 @@ SWC requires a binary be downloaded that is compatible specific to your system. 
 
 You might need to allow optional packages to be installed by your package manager (remove `--no-optional` flag) for the package to download correctly.
 
+You can manually install the missing Microsoft Visual C++ 2015 Redistributable (x64) runtime for Windows here  
+https://aka.ms/vs/17/release/vc_redist.x64.exe
+
+
 If SWC continues to fail to load you can opt-out by disabling `swcMinify` in your `next.config.js` or by adding a `.babelrc` to your project with the following content:
 
 ```json
